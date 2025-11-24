@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <section class="container card">
+        <h2>Add Student</h2>
+        <form class="form-control" id="studentForm">
+            <div class="d-flex row">
+                <label for="name" class="col">Name : </label>
+                <input id = 'name' type="text" class="col">
+            </div>
+            <div class="d-flex row">
+                <label for="age" class="col">Age : </label>
+                <input id = 'age' type="number" class="col">
+            </div>
+            <button type="submit" class="btn btn-primary">
+                Add Student
+            </button>
+        </form>
+    </section>
+    <section class="container card">
+        <h2>Student list</h2>
+        <ul id="studentList" class=""></ul>
+    </section>
+
+    <script src="assets/js/9Programs.js"></script>
+    </body>
+</html>
